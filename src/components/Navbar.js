@@ -1,4 +1,4 @@
-import "./componentStyles/NavbarStyles.css";
+import "./componentStyles/Navbar.css";
 
 export default function Navbar() {
   return <h1 className="navContainer">Hello World!</h1>;
