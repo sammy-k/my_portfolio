@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="app">
       <Navbar />
-      {/* <About /> */}
+      <About />
       {/* <Projects /> */}
       {/* <Skills /> */}
       {/* <Contact /> */}

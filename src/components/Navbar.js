@@ -3,7 +3,7 @@ import "./componentStyles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <header className="header">
+    <header className="header center">
       <h3>SK.</h3>
       <nav>
         <ul className="nav__list">

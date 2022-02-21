@@ -1,8 +1,5 @@
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: "Sam Kanan",
-  role: "Full Stack Engineer",
-  description: "Lorem ipsum...",
   resume: "#",
   social: {
     linkedin: "https://www.linkedin.com/in/sammy-kanan-750ba14/",
