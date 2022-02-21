@@ -1,0 +1,6 @@
+.navContainer {
+  display: flex;
+  align-items: center;
+  background-color: #888;
+  padding: 2rem 1.5rem;
+}
