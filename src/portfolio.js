@@ -1,9 +1,3 @@
-const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: "#",
-  title: "SK."
-};
-
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: "Sam Kanan",
@@ -62,4 +56,4 @@ const contact = {
   email: "samkanan@gmail.com"
 };
 
-export { header, about, projects, skills, contact };
+export { about, projects, skills, contact };
