@@ -3,23 +3,23 @@ import "./componentStyles/Navbar.css";
 const Navbar = () => {
   return (
     <header className="header center">
-      <h3 className="header--logo">SK.</h3>
+      <h3 className="header-logo">SK.</h3>
       <nav>
-        <ul className="nav__list">
-          <li className="nav__list-item">
-            <a href="#projects" className="link link--nav">
-              Projects
+        <ul className="nav-list">
+          <li className="nav-list-item">
+            <a href="#projects" className="link-nav">
+              projects
             </a>
           </li>
 
-          <li className="nav__list-item">
-            <a href="#skills" className="link link--nav">
-              Skills
+          <li className="nav-list-item">
+            <a href="#skills" className="link-nav">
+              skills
             </a>
           </li>
-          <li className="nav__list-item">
-            <a href="#contact" className="link link--nav">
-              Contact
+          <li className="nav-list-item">
+            <a href="#contact" className="link-nav">
+              contact
             </a>
           </li>
         </ul>

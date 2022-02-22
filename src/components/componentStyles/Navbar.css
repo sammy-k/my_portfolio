@@ -1,3 +1,8 @@
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .header {
   height: 8em;
   max-width: 1100px;
@@ -6,30 +11,19 @@
   justify-content: space-between;
 }
 
-.header--logo {
+.header-logo {
   color: #03a9f4;
 }
 
-.center {
-  display: flex;
-  align-items: center;
-}
-
-.nav__list {
+.nav-list {
   margin-right: 1.5em;
   display: flex;
 }
 
-.nav__list-item {
+.nav-list-item {
   margin-left: 1.5em;
 }
 
-.link {
-  padding: 0 0 0.3em 0;
-  position: relative;
-}
-
-.link--nav {
-  text-transform: lowercase;
+.link-nav {
   font-weight: 500;
 }
