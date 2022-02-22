@@ -33,7 +33,8 @@
 
 .btn--plain {
   text-transform: initial;
-  background-color: var(--clr-bg-alt);
+
+  background-color: #e1f5fe;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
   border: 0;
 }

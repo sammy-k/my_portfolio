@@ -53,9 +53,4 @@ const skills = [
   "Firebase"
 ];
 
-const contact = {
-  // email is optional - if left empty Contact section won't show up
-  email: "samkanan@gmail.com"
-};
-
-export { about, projects, skills, contact };
+export { about, projects, skills };
