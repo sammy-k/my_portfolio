@@ -11,20 +11,25 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
+    id: 1,
     name: "Zease",
-    description: "Lorem ipsum...",
-    stack: ["React Native", "Firebase", "Redux"],
-    sourceCode: "https://github.com",
+    description:
+      "Zease is a mobile application that allows users to track and view data regarding their sleep habits",
+    stack: ["React Native", "Node.js", "Firebase", "Redux"],
+    sourceCode: "https://github.com/sammy-k/Zease",
     livePreview: "https://zease.vercel.app/"
   },
   {
+    id: 2,
     name: "PokeMart",
-    description: "Coming soon...",
-    stack: ["React", "MongoDB", "Redux"],
-    sourceCode: "https://github.com",
+    description:
+      "Pokemart is a playful e-commerce application that allows users to shop for Pokemon-related items",
+    stack: ["React", "Node.js", "PostgreSQL", "Redux"],
+    sourceCode: "https://github.com/sammy-k/Grace_Shopper_App",
     livePreview: "https://poke-mart2022.herokuapp.com/"
   },
   {
+    id: 3,
     name: "Project 3",
     description: "Coming soon...",
     stack: ["React", "Firebase", "Redux"],
