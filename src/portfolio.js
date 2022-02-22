@@ -1,6 +1,6 @@
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  resume: "#",
+  resume:
+    "https://docs.google.com/document/d/15F2BMxzeuIMDxXNS6xJC8Uasvw8ahpPk/edit?usp=sharing&ouid=114585490853766598319&rtpof=true&sd=true",
   social: {
     linkedin: "https://www.linkedin.com/in/sammy-kanan-750ba14/",
     github: "https://github.com/sammy-k"
@@ -8,8 +8,6 @@ const about = {
 };
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     id: 1,
     name: "Zease",
@@ -31,16 +29,14 @@ const projects = [
   {
     id: 3,
     name: "Project 3",
-    description: "Coming soon...",
-    stack: ["React", "Firebase", "Redux"],
+    description: "COMING SOON...This project is currently under development.",
+    stack: ["React", "Node.js", "MongoDB", "Redux"],
     sourceCode: "#",
     livePreview: "#"
   }
 ];
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   "JavaScript",
   "Node",
   "React",

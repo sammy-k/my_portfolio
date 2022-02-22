@@ -9,25 +9,23 @@ const About = () => {
   return (
     <div className="about center">
       <h1>
-        Hi, I am <span className="about__name">Sam Kanan.</span>
+        Hi, I am <span className="about-name">Sam Kanan.</span>
       </h1>
 
-      <h2 className="about__role">A Full Stack Engineer.</h2>
-      <p className="about__desc">
+      <h2 className="about-role">A Full Stack Engineer.</h2>
+      <p className="about-desc">
         Hi, I'm Sam. I'm an adaptive developer, with good problem-solving skills and a creative
         outlook towards unfamiliar situations. I am currently exploring opportunities as a Software
         Developer/Engineer. Take a look at my portfolio and if you feel like my skills align with
         your needs, lets chat!
       </p>
 
-      <div className="about__contact center">
-        {resume && (
-          <a href={resume}>
-            <span type="button" className="btn btn--outline">
-              Resume
-            </span>
-          </a>
-        )}
+      <div className="about-contact center">
+        <a href={resume}>
+          <span type="button" className="btn btn--outline">
+            Resume
+          </span>
+        </a>
         <>
           <a href={social.github} aria-label="github" className="link link--icon">
             <GitHubIcon />

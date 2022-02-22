@@ -2,8 +2,11 @@
   padding: 2em;
   margin: 0 auto;
   text-align: center;
-  box-shadow: var(--shadow);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   transition: transform 0.2s linear;
+  background-color: #2ebcfc;
+  color: white;
+  border-radius: 1rem;
 }
 
 .project:hover {
@@ -25,7 +28,7 @@
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
-  color: var(--clr-fg-alt);
+  color: var(gray);
 }
 
 .project .link--icon {
