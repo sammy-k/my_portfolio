@@ -23,6 +23,11 @@
 
 .about-link-icon {
   margin-right: 1rem;
+  transition: transform 0.2s ease-in-out;
+}
+
+.about-link-icon:hover {
+  transform: translateY(-4px);
 }
 
 .resume-btn {
@@ -35,6 +40,7 @@
   font-size: 0.9rem;
   transition: transform 0.2s ease-in-out;
   margin-right: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .resume-btn-outline {

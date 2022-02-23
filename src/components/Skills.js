@@ -3,11 +3,11 @@ import "./componentStyles/Skills.css";
 
 const Skills = () => {
   return (
-    <section className="section skills" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <ul className="skills__list">
+    <section className="section" id="skills">
+      <h2 className="section-title">Skills</h2>
+      <ul className="skills-list">
         {skills.map((skill, idx) => (
-          <li key={idx} className="skills__list-item btn btn--plain">
+          <li key={idx} className="skills-list-item btn btn-skill">
             {skill}
           </li>
         ))}
