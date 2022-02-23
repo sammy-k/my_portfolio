@@ -21,12 +21,27 @@
   margin-top: 2rem;
 }
 
-.about .link--icon {
-  margin-right: 0.8em;
+.about-link-icon {
+  margin-right: 1rem;
 }
 
-.about .btn--outline {
-  margin-right: 1em;
+.resume-btn {
+  display: block;
+  cursor: pointer;
+  color: white;
+  background-color: #2ebcfc;
+  padding: 0.6rem 1.2rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease-in-out;
+  margin-right: 1rem;
+}
+
+.resume-btn-outline {
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
 }
 
 .center {
@@ -42,6 +57,11 @@
   h2 {
     font-size: 1.5rem;
   }
+
+  .about-desc {
+    font-size: 0.9rem;
+    width: 80%;
+  }
 }
 
 @media (max-width: 550px) {
@@ -51,5 +71,10 @@
 
   h2 {
     font-size: 1rem;
+  }
+
+  .about-desc {
+    font-size: 0.9rem;
+    width: 80%;
   }
 }

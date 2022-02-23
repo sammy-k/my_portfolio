@@ -22,16 +22,16 @@ const About = () => {
 
       <div className="about-contact center">
         <a href={resume}>
-          <span type="button" className="btn btn--outline">
+          <span type="button" className="resume-btn resume-btn-outline">
             Resume
           </span>
         </a>
         <>
-          <a href={social.github} aria-label="github" className="link link--icon">
-            <GitHubIcon />
+          <a href={social.github} aria-label="github" className="about-link-icon">
+            <GitHubIcon fontSize="large" />
           </a>
-          <a href={social.linkedin} aria-label="linkedin" className="link link--icon">
-            <LinkedInIcon />
+          <a href={social.linkedin} aria-label="linkedin" className="about-link-icon">
+            <LinkedInIcon fontSize="large" />
           </a>
         </>
       </div>
